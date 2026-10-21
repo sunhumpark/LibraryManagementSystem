@@ -1,0 +1,106 @@
+Member registered: Basic
+Member registered: Premium
+
+=== Member Details ===
+Person ID: P001
+Name: John Smith
+Phone Number: 4161234567
+Member Number: M001
+Age: 25
+Membership Type: Basic
+Outstanding Fees: $0.0
+
+Person ID: P002
+Name: Jane Wilson
+Phone Number: 4169876543
+Member Number: M002
+Age: 30
+Membership Type: Premium
+Outstanding Fees: $0.0
+
+=== Total Counts ===
+Total People: 2
+Total Members: 2
+
+=== Library Staff ===
+Person ID: P003
+Name: Michael Brown
+Phone Number: 4161112222
+Staff ID: S001
+Department: Circulation
+Monthly Salary: $3000.0
+Daily Issue Limit: 50
+Books Processed: 100
+Total Compensation: $3200.0
+
+Person ID: P004
+Name: Sarah Johnson
+Phone Number: 4163334444
+Staff ID: S002
+Department: Administration
+Monthly Salary: $4000.0
+Daily Issue Limit: 70
+Books Processed: 150
+Total Compensation: $4800.0
+Specialization: Digital Archives
+Seniority Allowance: $500.0
+
+Person ID: P005
+Name: David Lee
+Phone Number: 4165556666
+Staff ID: S003
+Department: Customer Service
+Monthly Salary: $2500.0
+Shift Type: Night
+Shift Allowance: $300.0
+Total Compensation: $2800.0
+
+=== Updated Counts ===
+Total People: 5
+Total Members: 2
+Total Staff: 3
+
+=== Late Fee Calculation ===
+Default Late Fee: $5.0
+Custom Late Fee: $10.0
+
+=== Runtime Polymorphism ===
+Role: Librarian
+Monthly Compensation: $3200.0
+
+Role: Senior Librarian
+Monthly Compensation: $4800.0
+
+Role: Library Assistant
+Monthly Compensation: $2800.0
+
+
+=== Interface Demonstration ===
+=== Member Report ===
+Person ID: P001
+Name: John Smith
+Phone Number: 4161234567
+Member Number: M001
+Age: 25
+Membership Type: Basic
+Outstanding Fees: $0.0
+
+Reservation successful for book: BOOK101
+Reservation failed: Invalid book ID
+
+=== Invalid Registration Test ===
+Registration failed: Invalid member number or age
+People before: 5
+People after: 5
+Members before: 2
+Members after: 2
+
+=== Invalid Staff Test ===
+Staff registration failed: Invalid staff information
+Staff before: 3
+Staff after: 3
+People before: 5
+People after: 5
+
+=== Invalid Late Fee Test ===
+Late fee calculation failed: Invalid overdue days or daily rate

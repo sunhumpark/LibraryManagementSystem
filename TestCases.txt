@@ -1,0 +1,42 @@
+Library Management System
+Test Cases
+
+Test 1: Valid Member Registration
+Input: Two valid members
+Expected: Both members registered successfully
+Result: PASS
+
+Test 2: Monthly Compensation
+Input: Librarian, Senior Librarian, Library Assistant
+Expected: $3200, $4800, $2800
+Result: PASS
+
+Test 3: Late Fee Calculation
+Input: 5 overdue days, default and $2 daily rates
+Expected: $5 and $10
+Result: PASS
+
+Test 4: Invalid Member Registration
+Input: Age = -5
+Expected: Registration rejected, counters unchanged
+Result: PASS
+
+Test 5: Invalid Staff Registration
+Input: Monthly salary = -1000
+Expected: Registration rejected, counters unchanged
+Result: PASS
+
+Test 6: Invalid Late Fee
+Input: Days overdue = -5
+Expected: IllegalArgumentException handled
+Result: PASS
+
+Test 7: Book Reservation
+Input: BOOK101 and empty book ID
+Expected: Success for BOOK101, failure for empty ID
+Result: PASS
+
+Test 8: Runtime Polymorphism
+Input: Three LibraryStaff objects
+Expected: Correct roles and compensation
+Result: PASS
